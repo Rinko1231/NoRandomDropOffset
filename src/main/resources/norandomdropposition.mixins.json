@@ -5,7 +5,8 @@
   "compatibilityLevel": "JAVA_17",
   "refmap": "norandomdropposition.refmap.json",
   "mixins": [
-    "BlockMixin"
+    "BlockMixin",
+    "ItemEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
