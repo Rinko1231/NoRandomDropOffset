@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.rinko1231.norandomdropoffset.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "norandomdropoffset.refmap.json",
+  "mixins": [
+    "BlockMixin",
+    "ItemEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
